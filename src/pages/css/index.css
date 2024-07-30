@@ -1,0 +1,228 @@
+@font-face {
+    font-family: Raleway;
+    src: url("./../../../src/assets/fonts/Raleway-VariableFont_wght.ttf");
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section#home {
+    background-color: #f4f4f4;
+}
+
+section#about {
+    background-color: #e2e2e2;
+}
+
+section#team {
+    background-color: #cfcfcf;
+}
+
+section#gallery {
+    background-color: #bdbdbd;
+}
+
+/* Offset for fixed nav bar */
+body {
+    scroll-behavior: smooth;
+}
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/src//assets//img//hero.jpg");
+}
+
+
+.heroOverlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pickupButton {
+    border-radius: 5%;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: transparent;
+    transition: background-color 0.75s, color 0.3s;
+}
+
+.pickupButton:hover {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    width: 75vw;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.about h1 {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 75px;
+}
+
+.about p{
+    text-align: justify;
+    font-family: Raleway; 
+}
+
+.AP1{
+    padding-top: 3%;
+    padding-left: 50%;
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+.AP2{
+    padding-right: 50%;
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+.AP3{
+    padding-left: 50%;
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+.team {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+}
+
+.teamRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.personImg {
+    border-radius: 100%;
+    transition: border-radius 0.25s, filter 0.25s, transform 0.25s;
+    padding: 25px;
+}
+
+.container:hover .personImg {
+    border-radius: 40%;
+    filter: blur(10px);
+    transform: scale(1.4);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+
+  .teamOverlay {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-20%, -20%);
+    visibility: hidden;
+  }
+
+.personImg:hover + .teamOverlay {
+    transition-delay: 0.1s;
+    animation: pop 0.25s ease-in-out;
+    visibility: visible;
+}
+
+.teamOverlay:hover {
+    visibility: visible;
+}
+.gallery {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.galleryRow {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 280px;
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+.navbar {
+    background-color: black;
+    height: 50px;
+    color: white;
+    opacity: 75%;
+}
+
+Link {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form {
+    margin: 0 auto;
+    height: 850px;
+    width: 500px;
+    padding: 20px;
+}
