@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.e956da5b.css",
+    "main.js": "/website/static/js/main.7f46f85f.js",
+    "static/js/453.bb828c5d.chunk.js": "/website/static/js/453.bb828c5d.chunk.js",
+    "static/media/hero.jpg": "/website/static/media/hero.b90d1355fbf479f2cca8.jpg",
+    "static/media/Raleway-VariableFont_wght.ttf": "/website/static/media/Raleway-VariableFont_wght.7eff8a2ab05073f03a9c.ttf",
+    "static/media/arghya.jpg": "/website/static/media/arghya.f0ca89e6d05aca4dd28d.jpg",
+    "static/media/pranav.jpg": "/website/static/media/pranav.1cfff7edb1bd37daeeb5.jpg",
+    "static/media/rishi.jpeg": "/website/static/media/rishi.1815a82b25366644fe8f.jpeg",
+    "static/media/samrat.jpeg": "/website/static/media/samrat.c9ef01655ffb16bdad9a.jpeg",
+    "index.html": "/website/index.html",
+    "main.e956da5b.css.map": "/website/static/css/main.e956da5b.css.map",
+    "main.7f46f85f.js.map": "/website/static/js/main.7f46f85f.js.map",
+    "453.bb828c5d.chunk.js.map": "/website/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e956da5b.css",
+    "static/js/main.7f46f85f.js"
+  ]
+}
