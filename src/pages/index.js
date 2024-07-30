@@ -1,21 +1,22 @@
 import React from "react";
 import './css/index.css';
-import imgPlaceholder from './../assets/img/personPlaceholder.jpg'
 // import { Carousel } from "react-responsive-carousel";
 import { Helmet } from "react-helmet";
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+// Importing Images for the Carousel
 // import image1 from './../assets/img/imgSlider/image1.jpg'
 // import image2 from './../assets/img/imgSlider/image2.jpeg'
 // import image3 from './../assets/img/imgSlider/image3.jpeg'
 // import image4 from './../assets/img/imgSlider/image4.jpeg'
+
+// Importing Images for the Team
 import rishiImg from './../assets/personIMG/rishi.jpeg'
 import samratImg from './../assets/personIMG/samrat.jpeg'
 import pranavImg from './../assets/personIMG/pranav.jpg'
 import arghyaImg from './../assets/personIMG/arghya.jpg'
-
-// Form Link https://tally.so/embed/mBBWN1?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1
-
+import maneeshImg from './../assets/personIMG/maneesh.jpeg'
 
 const Home = () => {
     return (
@@ -100,7 +101,7 @@ const Home = () => {
                 </div>
                 <div class="person">
                     <div class="container">
-                        <img class="personImg" src={imgPlaceholder} alt="Maneesh"></img>
+                        <img class="personImg" src={maneeshImg} alt="Maneesh"></img>
                         <div class="teamOverlay">
                             Maneesh, the marketing lead at E-karma, brings innovative strategies and a fresh perspective to our brand. Currently studying at Sarala Birla Academy, he combines academic knowledge with a keen interest in marketing. Outside of work, Maneesh enjoys playing squash, running, gymming, gaming, and exploring new marketing trends.
                         </div>
