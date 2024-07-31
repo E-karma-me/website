@@ -58,13 +58,13 @@ const Home = () => {
             <div class="about" style = {{font: "Times new roman"}}>
                 <h1><b>About Us</b></h1>
                     <p class="AP1">
-                    E-karma is a revolutionary initiative aimed at revolutionising the way we handle electronic waste (e-waste). With the increasing concern for environmental sustainability and the proliferation of electronic devices, E-karma provides a convenient solution for users to responsibly dispose of their e-waste while also being rewarded for their efforts.
+                        E-karma is a revolutionary initiative aimed at revolutionising the way we handle electronic waste (e-waste). With the increasing concern for environmental sustainability and the proliferation of electronic devices, E-karma provides a convenient solution for users to responsibly dispose of their e-waste while also being rewarded for their efforts.
                     </p>
                     <p class = "AP2">
-                    The app works on a simple yet effective model: users schedule pickups for their e-waste through the E-karma platform. Our team then collects the e-waste and delivers it to partnering electronic recycling companies. In return for their contribution, users receive discount coupons and vouchers from these companies, directly proportional to the amount of e-waste they have recycled. This not only incentivises users to participate actively in e-waste management but also promotes a circular economy by encouraging the reuse and recycling of electronic materials.
+                        The app works on a simple yet effective model: users schedule pickups for their e-waste through the E-karma platform. Our team then collects the e-waste and delivers it to partnering electronic recycling companies. In return for their contribution, users receive discount coupons and vouchers from these companies, directly proportional to the amount of e-waste they have recycled. This not only incentivises users to participate actively in e-waste management but also promotes a circular economy by encouraging the reuse and recycling of electronic materials.
                     </p>
                     <p class = "AP3">
-                    E-karma is more than just a service; it's a movement towards a greener, more sustainable future. By harnessing the power of technology and collaboration, we aim to make a significant impact on reducing e-waste while simultaneously rewarding environmentally conscious behaviour. Join us in our mission to make every contribution count towards a cleaner planet with E-karma!
+                        E-karma is more than just a service; it's a movement towards a greener, more sustainable future. By harnessing the power of technology and collaboration, we aim to make a significant impact on reducing e-waste while simultaneously rewarding environmentally conscious behaviour. Join us in our mission to make every contribution count towards a cleaner planet with E-karma!
                 </p>
             </div>
 
@@ -83,7 +83,7 @@ const Home = () => {
                     <div class="container">
                         <img class="personImg" src={rishiImg} alt="Rishi"></img>
                         <div class="teamOverlay">
-                            Rishi Bagri is a 17-year-old IBDP Year 2 student at Sarala Birla Academy. Being Head Boy, Rishi is actively involved in  various projects and initiatives. Passionate about technology and innovation, he is actively involved in various projects and initiatives. A Marvel enthusiast and tech aficionado, Rishi enjoys coding, developing web applications, playing the guitar and exploring sustainability solutions.
+                            Rishi Bagri is a 17-year-old IBDP Year 2 student at Sarala Birla Academy. Being Head Boy, Rishi is actively involved in  various projects and initiatives. Passionate about technology and innovation, Rishi makes for the perfect CEO. A Marvel enthusiast and tech aficionado, Rishi enjoys coding, developing web applications, playing the guitar and exploring sustainability solutions.
                         </div>
                     </div>
                     <h3>Rishi Bagri</h3>
