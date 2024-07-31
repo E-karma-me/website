@@ -16,7 +16,7 @@ function App() {
 				<Route exact path="/" element={<Home />} />
 				{/* <Route path="/pickup" element={<Pickup />} /> */}
 			</Routes>
-			<Home />
+			{/* <Home /> */}
 		</Router>
 	);
 }
