@@ -42,7 +42,7 @@ const Home = () => {
                         <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("Welcome to E-KARMA")
+                                .typeString("Welcome to E-Karma")
                                 .start();
                             }}
                         />
