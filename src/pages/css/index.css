@@ -3,7 +3,6 @@
     src: url("./../../../src/assets/fonts/Raleway-VariableFont_wght.ttf");
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -47,6 +46,50 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 0 40px; /* Decreased padding at the bottom */
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 40px; /* Adjusted to match the new nav height */
+        left: 0;
+        background-color: #333;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
 section#home {
     background-color: #f4f4f4;
 }
@@ -68,19 +111,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        margin: 10px 0;
-    }
-}
-
-
 .hero {
     height: 100vh;
     width: 100vw;
@@ -89,7 +119,6 @@ body {
     background-position: 50% 50%;
     background-image: url("/src//assets//img//hero.jpg");
 }
-
 
 .heroOverlay {
     position: absolute;
@@ -103,6 +132,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .pickupButton {
@@ -123,7 +153,6 @@ body {
     width: 75vw;
     margin: auto;
     padding: 20px;
-    
 }
 
 .about h1 {
@@ -137,22 +166,41 @@ body {
     font-family: Raleway; 
 }
 
-.AP1{
+.AP1, .AP2, .AP3 {
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+
+.AP1 {
     padding-top: 3%;
     padding-left: 50%;
-    font-size: x-large;
-    padding-bottom: 10%;
 }
-.AP2{
+
+.AP2 {
     padding-right: 50%;
-    font-size: x-large;
-    padding-bottom: 10%;
 }
-.AP3{
+
+.AP3 {
     padding-left: 50%;
-    font-size: x-large;
-    padding-bottom: 10%;
 }
+
+@media (max-width: 768px) {
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .AP1, .AP2, .AP3 {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: large;
+    }
+
+    .heroOverlay p {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
 .team {
     padding-top: 50px;
     display: flex;
@@ -173,7 +221,6 @@ body {
     text-align: center;
 }
 
-
 .personImg {
     border-radius: 100%;
     transition: border-radius 0.25s, filter 0.25s, transform 0.25s;
@@ -191,15 +238,15 @@ body {
     text-align: center;
     color: white;
     text-shadow: 1px 1px black;
-  }
+}
 
-  .teamOverlay {
+.teamOverlay {
     position: absolute;
     top: 25%;
     left: 25%;
     transform: translate(-20%, -20%);
     visibility: hidden;
-  }
+}
 
 .personImg:hover + .teamOverlay {
     transition-delay: 0.1s;
@@ -210,6 +257,7 @@ body {
 .teamOverlay:hover {
     visibility: visible;
 }
+
 .gallery {
     padding-top: 50px;
     text-align: center;
@@ -225,4 +273,11 @@ body {
     width: 500px;
     height: 280px;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .galleryRow {
+        width: 90%;
+        height: auto;
+    }
 }
