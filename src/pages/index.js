@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import './css/index.css';
-// import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "react-responsive-carousel";
 import { Helmet } from "react-helmet";
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // Importing Images for the Carousel
-// import image1 from './../assets/img/imgSlider/image1.jpg'
-// import image2 from './../assets/img/imgSlider/image2.jpeg'
-// import image3 from './../assets/img/imgSlider/image3.jpeg'
-// import image4 from './../assets/img/imgSlider/image4.jpeg'
+import image1 from './../assets/img/imgSlider/image 1.jpeg'
+import image2 from './../assets/img/imgSlider/image 2.jpeg'
+import image3 from './../assets/img/imgSlider/image 3.jpeg'
+import image4 from './../assets/img/imgSlider/image 4.jpeg'
+import image5 from './../assets/img/imgSlider/image 5.jpeg'
+import image6 from './../assets/img/imgSlider/image 6.jpeg'
+import image7 from './../assets/img/imgSlider/image 7.jpeg'
+import image8 from './../assets/img/imgSlider/image 8.jpeg'
+import image9 from './../assets/img/imgSlider/image 9.jpeg'
 
 // Importing Images for the Team
 import rishiImg from './../assets/personIMG/rishi.jpeg'
@@ -141,9 +146,9 @@ const Home = () => {
                 </div>
             </section>
             
-           {/* <section id = "gallery">
+           <section id = "gallery">
                 <div class="gallery">
-                    <h1><b>Gallery</b></h1>
+                    <h1><b>Our Collections</b></h1>
                 </div>
                 <div class="galleryRow">
                     <Carousel>
@@ -159,9 +164,24 @@ const Home = () => {
                         <div>
                             <img src={image4} alt="Carousel IMG"></img>
                         </div>
+                        <div>
+                            <img src={image5} alt="Carousel IMG"></img>
+                        </div>
+                        <div>
+                            <img src={image6} alt="Carousel IMG"></img>
+                        </div>
+                        <div>
+                            <img src={image7} alt="Carousel IMG"></img>
+                        </div>
+                        <div>
+                            <img src={image8} alt="Carousel IMG"></img>
+                        </div>
+                        <div>
+                            <img src={image9} alt="Carousel IMG"></img>
+                        </div>
                     </Carousel>
                 </div>
-        </section> */}
+        </section>
 
         </div>
     );
