@@ -19,7 +19,6 @@ import image9 from './../assets/img/imgSlider/image 9.jpeg'
 // Importing Images for the Team
 import rishiImg from './../assets/personIMG/rishi.jpeg'
 import samratImg from './../assets/personIMG/samrat.jpeg'
-import pranavImg from './../assets/personIMG/pranav.jpg'
 import arghyaImg from './../assets/personIMG/arghya.jpg'
 import maneeshImg from './../assets/personIMG/maneesh.jpeg'
 
@@ -135,12 +134,11 @@ const Home = () => {
                     </div>
                     <div className="person">
                         <div className="container">
-                            <img className="personImg" src={pranavImg} alt="Pranav"></img>
                             <div className="teamOverlay">
-                                Pranav is a high school student from Kathmandu, Nepal, studying in Bangalore. Passionate about design and coding, he has directed a school play, designed the school magazine, and created various Python and Discord bot projects. Always seeking new challenges, Pranav takes on short-term projects and uses Monkeytype for relaxation and motivation.
+                                ABC is a high school student from Kathmandu, Nepal, studying in Bangalore. Passionate about design and coding, he has directed a school play, designed the school magazine, and created various Python and Discord bot projects. Always seeking new challenges, ABC takes on short-term projects and uses Monkeytype for relaxation and motivation.
                             </div>
                         </div>
-                        <h3>Pranav Khemka</h3>
+                        <h3>ABC</h3>
                         <p>CTO</p>
                     </div>
                 </div>
